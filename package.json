@@ -1,0 +1,20 @@
+{
+  "name": "two-agents-consensus-app",
+  "version": "1.0.0",
+  "description": "Dual-Agent Consensus AI with Live Web Research, Perplexity-style Citations, and ChatGPT UI",
+  "scripts": {
+    "server": "node server/src/index.js",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "ai",
+    "dual-agent",
+    "consensus",
+    "perplexity",
+    "claude",
+    "chatgpt"
+  ],
+  "author": "",
+  "license": "MIT"
+}
